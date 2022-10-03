@@ -1,0 +1,28 @@
+{
+    "name": "obhavo-cli-uz",
+    "version": "1.0.0",
+    "description": "Ob-Havo korsatib beruvchi o'zbekcha cli",
+    "main": "weather.js",
+    "type": "module",
+    "bin": {
+        "weather": "weather.js"
+    },
+    "scripts": {
+        "start": "node weather.js"
+    },
+    "keywords": [
+        "ob-havo",
+        "uz",
+        "weather",
+        "cli",
+        "obhavo",
+        "uzb"
+    ],
+    "author": "Ritnyxdev <adbusalomovdev@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "chalk": "^5.0.1",
+        "dedent-js": "^1.0.1"
+    }
+}
