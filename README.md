@@ -1,15 +1,24 @@
 # Weathercli ☁️
-Ob-havoni ko'rsatib beruvchi CLI programma
+A CLI program that shows the weather
 
-# O'rnatish ⬇️
-1. <code>git clone https://github.com/ritnyxdev/weathercli.git</code> qilib olamiz
-2. <code>cd weathercli</code>
-3. <code>npm install</code>
+# Installation ⬇️
+1. Clone the repository: `git clone https://github.com/ritnyxdev/weathercli.git`
+2. Navigate into the project directory: `cd weathercli`
+3. Install the dependencies: `npm install`
 
-# Ishlatish ♻️
+# Usage ♻️
 
-Ishlatish uchun birinchi openweathermap.com dan API-Key olishingiz kerak bo'ladi!
-Api keyni nusxalab olib terminalga:
-<code>node weather -t [API_KEY]</code> deb yozamiz,
-Undan keyin shaharni kiritamiz, buning uchun <code>node weather -s [SHAXAR_NOMI]</code> deb yozamiz,
-Va ohirida <code>node weather</code> deb yozsangiz bo'ldi ✅
+To use it, you first need to get an API Key from www.openweathermap.com!
+Copy the API key and paste it into the terminal:
+```bash
+node weather -t [API_KEY]
+```
+Then, enter the city name by typing:
+```bash
+node weather -s [CITY_NAME]
+```
+And finally, if you just type:
+```bash
+node weather
+```
+It will work ✅
